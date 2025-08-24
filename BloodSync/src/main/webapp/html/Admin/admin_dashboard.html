@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard | BloodSync Application</title>
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Admin Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="manage_donors.html">Manage Donors</a></li>
+                <li><a href="blood_requests.html">Blood Requests</a></li>
+                <li><a href="blood_stock.html">Blood Stock</a></li>
+                <li><a href="admin_login.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="dashboard">
+            <div class="card">
+                <h2>Total Donors</h2>
+                <p id="total_donors">Loading...</p>
+            </div>
+            <div class="card">
+                <h2>Pending Blood Requests</h2>
+                <p id="blood_requests">Loading...</p>
+            </div>
+            <div class="card">
+                <h2>Blood Stock Available</h2>
+                <p id="stock_available">Loading...</p>
+            </div>
+    </section>
+    <script src="../../Javascript/admin_dashboard.js"></script>
+    <footer>
+        <p>&copy; 2025 BloodSync | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

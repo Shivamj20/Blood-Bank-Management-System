@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Hospital Requests | BloodSync Application</title>
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Manage Blood Requests</h1>
+        <nav>
+            <ul>
+                <li><a href="admin_dashboard.html">Dashboard </a></li>
+                <li><a href="manage_donors.html">Manage Donors</a></li>
+                <li><a href="blood_stock.html">Blood Stock</a></li>
+                <li><a href="admin_login.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="content">
+        <h2>All Blood Requests</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Request Id</th>
+                    <th>Hospital</th>
+                    <th>Blood Type</th>
+                    <th>Requested Units</th>
+                    <th>Urgency</th>
+                    <th>Status Units</th>
+                    <th>Request Date</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="requestTableBody">
+                    <!--Hospital request details will be loaded here dynamically -->
+            </tbody>
+        </table>
+    </section>
+            <script src="../../Javascript/manage_request.js"></script>
+    
+    <footer>
+        <p>&copy; 2025 BloodSync | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
